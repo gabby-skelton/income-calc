@@ -1,0 +1,31 @@
+body { margin: 0; padding: 0; }
+
+h2 {
+  background-color: darkgreen;
+  color: white; 
+  font-size: 15px;
+  padding: 1.5%; 
+  text-align: center;
+}
+
+label { 
+  padding-left: 2%; 
+  font-weight: bold;
+  font-size: 13px;
+}
+
+label, input { margin-bottom: 3%; }
+
+h1  { text-align: center; font-size: 24px; }
+div { width: 35%; margin-left: 32.5%; }
+p, form, label { width: 100%; }
+
+form  { display: table;      }
+p     { display: table-row;  }
+label { display: table-cell; }
+input { display: table-cell; }
+
+button { float: right; }
+
+.calculation { margin-top: 2.5%; font-weight: bold;
+}
