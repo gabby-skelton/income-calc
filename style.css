@@ -29,3 +29,16 @@ button { float: right; }
 
 .calculation { margin-top: 2.5%; font-weight: bold;
 }
+
+.expenses {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.expenses > div {
+  width: 100px;
+  margin: 10px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
